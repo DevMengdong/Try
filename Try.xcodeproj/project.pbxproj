@@ -17,6 +17,8 @@
 		9966646A1E8104D8005575CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 996664681E8104D8005575CB /* LaunchScreen.storyboard */; };
 		996664751E8104D8005575CB /* TryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 996664741E8104D8005575CB /* TryTests.m */; };
 		996664801E8104D8005575CB /* TryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9966647F1E8104D8005575CB /* TryUITests.m */; };
+		99C864561E82654600B8547F /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99C864551E82654600B8547F /* AddressBook.framework */; };
+		99C864591E82655500B8547F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C864581E82655500B8547F /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,9 @@
 		9966647B1E8104D8005575CB /* TryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9966647F1E8104D8005575CB /* TryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TryUITests.m; sourceTree = "<group>"; };
 		996664811E8104D8005575CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99C864551E82654600B8547F /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		99C864571E82655500B8547F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		99C864581E82655500B8547F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99C864561E82654600B8547F /* AddressBook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +96,7 @@
 				996664731E8104D8005575CB /* TryTests */,
 				9966647E1E8104D8005575CB /* TryUITests */,
 				996664581E8104D8005575CB /* Products */,
+				99C864541E82654600B8547F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +117,8 @@
 				9966645E1E8104D8005575CB /* AppDelegate.m */,
 				996664601E8104D8005575CB /* ViewController.h */,
 				996664611E8104D8005575CB /* ViewController.m */,
+				99C864571E82655500B8547F /* MainViewController.h */,
+				99C864581E82655500B8547F /* MainViewController.m */,
 				996664631E8104D8005575CB /* Main.storyboard */,
 				990D78191E8134820026DD5A /* CustomView.h */,
 				990D781A1E8134820026DD5A /* CustomView.m */,
@@ -146,6 +155,14 @@
 				996664811E8104D8005575CB /* Info.plist */,
 			);
 			path = TryUITests;
+			sourceTree = "<group>";
+		};
+		99C864541E82654600B8547F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99C864551E82654600B8547F /* AddressBook.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,6 +303,7 @@
 				996664621E8104D8005575CB /* ViewController.m in Sources */,
 				990D781B1E8134820026DD5A /* CustomView.m in Sources */,
 				9966645F1E8104D8005575CB /* AppDelegate.m in Sources */,
+				99C864591E82655500B8547F /* MainViewController.m in Sources */,
 				9966645C1E8104D8005575CB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,6 +453,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2M7JFX9QX5;
 				INFOPLIST_FILE = Try/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yunxiezuo.Try;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -447,6 +466,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2M7JFX9QX5;
 				INFOPLIST_FILE = Try/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yunxiezuo.Try;
 				PRODUCT_NAME = "$(TARGET_NAME)";

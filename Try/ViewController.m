@@ -40,7 +40,11 @@
     
     [self changeOtherColor];
     
+    
+    
 }
+
+
 
 - (void)changeOtherColor {
     
