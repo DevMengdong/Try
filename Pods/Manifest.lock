@@ -1,0 +1,39 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - GoogleAPIClientForREST (1.1.1):
+    - GoogleAPIClientForREST/Core (= 1.1.1)
+    - GTMSessionFetcher (>= 1.1.7)
+  - GoogleAPIClientForREST/Core (1.1.1):
+    - GTMSessionFetcher (>= 1.1.7)
+  - GTMSessionFetcher (1.1.7):
+    - GTMSessionFetcher/Full (= 1.1.7)
+  - GTMSessionFetcher/Core (1.1.7)
+  - GTMSessionFetcher/Full (1.1.7):
+    - GTMSessionFetcher/Core (= 1.1.7)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - GoogleAPIClientForREST (~> 1.1.1)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  GoogleAPIClientForREST: f272e35f7fe9f80ab232756c798adc32245ece8c
+  GTMSessionFetcher: a1f8ed39e4fe21c68957daed472c7afbcdf29166
+
+PODFILE CHECKSUM: b26b744bff3920e2a03b30a3cf1b9623af32f671
+
+COCOAPODS: 1.1.1
