@@ -10,6 +10,10 @@
 
 #import "MainViewController.h"
 
+#import "YXZSquare.h"
+
+#import "YXZRectangle.h"
+
 @interface AppDelegate ()
 
 @end
@@ -29,7 +33,7 @@
     self.window.rootViewController = mainNav;
     
     [self.window makeKeyAndVisible];
-    
+
     return YES;
 }
 
